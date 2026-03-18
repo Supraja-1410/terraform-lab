@@ -11,7 +11,7 @@ jobs:
         dir: [day1, day2, day3, day4, day5, day7]
 
     steps:
-      - name: Checkout
+      - name: Checkout code
         uses: actions/checkout@v3
 
       - name: Setup Terraform
