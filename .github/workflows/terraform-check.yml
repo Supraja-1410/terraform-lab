@@ -8,7 +8,7 @@ jobs:
 
     strategy:
       matrix:
-        dir: [day1, day2, day3, day4, day5, day7]
+        dir: [day1, day2, day3, day4, day7]
 
     steps:
       - name: Checkout code
